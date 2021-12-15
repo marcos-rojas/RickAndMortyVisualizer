@@ -1,0 +1,32 @@
+ReactJS + Webpack + Babel + SaSS
+(Rick and Morty API)
+En el buscador de carpetas se puede usar cmd para rutear directamente
+Cuando se descarga, la instalación de paquetes usa: npm install 
+Descargas usuales:
+  	Node, Git, Sass (con git bash) y VSCode
+en caso de Sass: npm install -g sass
+Notion: https://muddy-lipstick-642.notion.site/React-js-Webpack-SASS-fdbd828482b74583bce3db1335592265
+
+PROYECTO EN REACT JS
+core-js es para babel
+	npm init -y
+	npm i core-js react react-dom
+	npm i -D @babel/core @babel/preset-env @babel/preset-react @pmmmwh/react-refresh-webpack-plugin babel-loader clean-webpack-plugin css-loader html-webpack-plugin mini-css-extract-plugin react-refresh sass sass-loader style-loader webpack webpack-cli webpack-dev-server webpack-merge
+merge: concatenar archivos
+configuracion global, desarrollo y producción
+
+En git: añadimos /node_modules/ y /dist/ a .gitignore
+
+AÑADIENDO DOCUMENTOS
+	/config
+		/webpack.common.js
+		/webpack.dev.js
+		/webpack.prod.js
+	/public
+		/index.html
+	/src
+		/App.js
+		/App.scss
+		/index.js 
+	babel.config.json (aquí vamos modificando los presets con runtime automatic desde react17)
+	
